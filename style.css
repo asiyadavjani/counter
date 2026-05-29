@@ -5,25 +5,22 @@
     overflow: hidden;
 }
 
-
-
-/* Video ko bina kisi gap ke full screen fit krne ke liye */
 #bg-video {
     position: fixed;
     top: 0;
     left: 0;
-    width: 100vw;    /* 100% Viewport Width (Poori screen ki chorai) */
-    height: 100vh;   /* 100% Viewport Height (Poori screen ki lambai) */
-    z-index: -1;     /* Sab content ke peeche rhegi */
-    object-fit: fill; /* Video bina stretch huay poori screen cover karegi */
+    width: 100vw;    
+    height: 100vh;   
+    z-index: -1;    
+    object-fit: fill; 
 
 }
 
 
 
-/* Jab back to work image lagani ho class body par lagayenge */
+
 body.work-mode {
-    background-image: url('back\ ground.jpg'); /* Aapki desktop/office image ka sahi path yahan aayega */
+    background-image: url('back\ ground.jpg'); 
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -34,7 +31,7 @@ body.work-mode {
     z-index: 1;
 }
 
-/* Glass panel background card for counter */
+
 .counter-container {
     background: rgba(0, 0, 0, 0.55);
     border-radius: 20px;
@@ -62,7 +59,7 @@ body.work-mode {
 }
 
 .marker-card {
-    background: rgba(255, 193, 7, 0.25); /* Light golden yellow tint for AM/PM marker */
+    background: rgba(255, 193, 7, 0.25);
     border-color: rgba(255, 193, 7, 0.4);
 }
 
@@ -83,7 +80,7 @@ body.work-mode {
     font-weight: 500;
 }
 
-/* Audio button floating styling */
+
 #audio-btn {
     position: fixed;
     top: 20px;
